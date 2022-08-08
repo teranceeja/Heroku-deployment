@@ -8,9 +8,17 @@ api = Blueprint("api",__name__)
 def blog_list():
     return jsonify([
         {
-            "name":"anies",
-            "position":20
-        }
+            "name":"anies", 
+            "position":20,
+        },
+        {
+            "name":"John", 
+            "position":40,
+        },
+        {
+            "name":"Philip", 
+            "position":50,
+        },
     ])
 
 
